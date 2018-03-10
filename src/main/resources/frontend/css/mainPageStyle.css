@@ -1,0 +1,110 @@
+body {
+    min-width: 1100px;
+    overflow: hidden;
+}
+
+.wheel {
+    max-width: 100%;
+    height: auto;
+}
+
+.main-bg-wrapper {
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.anima-wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.greetings {
+    margin-top: 0px;
+    font-size: 5em;
+    font-family: 'Indie Flower';/*'Luxury Royale JF Regular';*/
+}
+
+.customer-text {
+    margin-top: 0px;
+    font-size: 4em;
+    font-family: 'Indie Flower';
+}
+
+.swipe-text {
+    margin-top: 0px;
+    font-size: 5em;
+    font-family: 'Indie Flower';
+}
+
+.customer-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reg-wrapper {
+    position: relative;
+    width: 100%;
+    height: 80%;
+    visibility: hidden;
+    background-image: url(../img/reg.jpg);
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.reg-wrapper > p {
+    color: white;
+    font-family: 'Indie Flower';
+    font-size: 8em;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+}
+
+.reg-wrapper > .log-in-column {
+    padding: 0;
+}
+
+.enter-title {
+    font-family: 'Indie Flower';
+    font-size: 3em;
+    color: white;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.log-in-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.log-in-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px black;
+}
+
+.log-in-wrapper > input {
+    border-radius: 0px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    font-family: 'Indie Flower';
+    font-size: 1.5em;
+}
+
+.log-in-wrapper > input:focus {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.log-in-wrapper > button {
+    border-radius: 0px;
+    background-color: rgba(0, 180, 195, 0.56);
+    border-color: rgba(0, 180, 195, 0.56);
+}

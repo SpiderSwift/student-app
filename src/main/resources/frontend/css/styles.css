@@ -1,0 +1,81 @@
+/*a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}*/
+
+/*div > .filter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.move-task {
+    display: block;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.add-category-column {
+    display: flex;
+}
+
+.add-category-column > input {
+    border-radius: 0px;
+}
+
+.add-category-column > button {
+    border-radius: 0px;
+}
+
+div > .selected {
+    color: #35d5f2;
+}
+
+.category {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+.category > span {
+    width: 50%;
+}
+
+.edit-task {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-task > textarea {
+    width: 100%;
+}
+
+.link-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.move-task-button {
+    width: 100%;
+}*/

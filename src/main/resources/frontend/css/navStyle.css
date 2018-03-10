@@ -1,0 +1,48 @@
+.anima-navbar {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 10%;
+    visibility: hidden;
+    z-index: 2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.anima-navbar > a {
+    color: white;
+    font-family: 'Indie Flower';
+    font-size: 2em;
+}
+
+.anima-navbar > a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+.anima-navbar > a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.anima-navbar > a:hover {
+    text-decoration: none;
+    color: rgb(0, 180, 195);
+}
+
+.anima-navbar > .night:hover {
+    color: rgb(31, 134, 255);
+}
+
+.anima-navbar > .main:hover {
+    color: rgb(0, 180, 195);
+}
+
+.anima-navbar > .twilight:hover {
+    color: rgb(255, 143, 31);
+}
+
+.anima-navbar > .breed:hover {
+    color: rgb(155, 196, 214);
+}

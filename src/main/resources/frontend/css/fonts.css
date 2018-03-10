@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "BebasRegular";
+    src: ("../fonts/BebasRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Indie Flower';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Indie Flower'), local('IndieFlower'), url(../fonts/10JVD_humAd5zP2yrFqw6ugdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: "AEmpirial";
+    src: url("../fonts/aempirial.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Luxury Royale JF Regular";
+    src: url("../fonts/Luxury Royale JF Regular.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
