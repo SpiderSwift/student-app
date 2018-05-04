@@ -160,7 +160,7 @@ public class PdfGenerator {
 
                 //-----
                 yOff = 750;
-                printText(contentStream, "Student " + count++, 30, courierBoldFont);
+                printText(contentStream, "Sensei " + count++, 30, courierBoldFont);
                 printText(contentStream, "Id: " + sensei.getId(), 20, courierFont);
                 printText(contentStream, "Name: " + sensei.getName(), 20, courierFont);
                 printText(contentStream, "Missions completed:" + sensei.getMissionsCompleted(), 20, courierFont);
